@@ -1,10 +1,72 @@
 [
   {
-    "id": "1",
-    "judul": "Contoh item pertama",
-    "kategori": "Contoh",
-    "fieldTema1": "ganti sesuai field tema",
-    "fieldTema2": 0,
-    "fieldTema3": "ganti sesuai field tema"
+    "judul": "Janda Bolong",
+    "kategori": "Daun",
+    "namaLatin": "Monstera adansonii",
+    "frekuensiSiram": "1 sampai 2 kali seminggu",
+    "kebutuhanCahaya": "Teduh"
+  },
+  {
+    "judul": "lidah Mertua",
+    "kategori": "Daun",
+    "namaLatin": "Sansevieria trifasciata",
+    "frekuensiSiram": "1 sampai 2 minggu sekali",
+    "kebutuhanCahaya": "Sedang"
+  },
+  {
+    "judul": "Kuping Gajah",
+    "kategori": "Daun",
+    "namaLatin": "Anthurium crystallinum",
+    "frekuensiSiram": "2 sampai 3 kali seminggu",
+    "kebutuhanCahaya": "Sedang"
+  },
+  {
+    "judul": "Suplir",
+    "kategori": "Daun",
+    "namaLatin": "Adiantum cuneatum",
+    "frekuensiSiram": "1 sampai 2 kali sehari",
+    "kebutuhanCahaya": "Teduh"
+  },
+  {
+    "judul": "Mawar",
+    "kategori": "Bunga",
+    "namaLatin": "Rosa",
+    "frekuensiSiram": "Setiap hari",
+    "kebutuhanCahaya": "Penuh"
+  },
+  {
+    "judul": "Anggrek Bulan",
+    "kategori": "Bunga",
+    "namaLatin": "Rosa",
+    "frekuensiSiram": "Setiap hari",
+    "kebutuhanCahaya": "Penuh"
+  },
+  {
+    "judul": "Peach Lily",
+    "kategori": "Bunga",
+    "namaLatin": "Spathiphyllum wallisii",
+    "frekuensiSiram": "2x seminggu",
+    "kebutuhanCahaya": "Sedang"
+  },
+  {
+    "judul": "Lidah Buaya",
+    "kategori": "Sukulen & Kaktus",
+    "namaLatin": "Aloe Vera",
+    "frekuensiSiram": "2 minggu sekali",
+    "kebutuhanCahaya": "Penuh"
+  },
+  {
+    "judul": "Kaktus Centong",
+    "kategori": "Sukulen & Kaktus",
+    "namaLatin": "Opuntia cochenillifera",
+    "frekuensiSiram": "1 sampai 2 minggu sekali",
+    "kebutuhanCahaya": "Penuh"
+  },
+  {
+    "judul": "Sukulen Echeveria",
+    "kategori": "Sukulen & Kaktus",
+    "namaLatin": "Echeveria elegans",
+    "frekuensiSiram": "1 sampai 2 minggu sekali",
+    "kebutuhanCahaya": "Penuh"
   }
 ]
