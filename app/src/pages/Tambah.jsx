@@ -51,7 +51,7 @@ export default function Tambah() {
         <option value="tinggi">Penuh</option>
       </select>
 
-      <button type="submit">Simpan</button>
+      <button id="idSimpan" type="submit">Simpan</button>
     </form>
   )
 }

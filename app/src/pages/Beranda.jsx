@@ -14,7 +14,7 @@ export default function Beranda() {
         <p>Memuat ringkasan...</p>
       ) : (
         <p>
-          Ada {items.length} koleksi dalam {jumlahKategori} kategori.
+          Ada {items.length} koleksi tanaman hias dalam {jumlahKategori} kategori.
         </p>
       )}
       <Link to="/koleksi">Lihat semua koleksi</Link>

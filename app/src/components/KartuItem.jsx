@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom'
 export default function KartuItem({ item }) {
   const { id, judul, kategori, namaLatin, frekuensiSiram, kebutuhanCahaya } = item
   return (
-    <article className="kartu">
+    <article id="idKartu" className="kartu">
       <h3>
         <Link to={`/koleksi/${id}`}>{judul}</Link>
       </h3>
