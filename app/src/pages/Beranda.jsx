@@ -1,6 +1,7 @@
 import { Link } from 'react-router-dom'
 import useKoleksi from '../hooks/useKoleksi.js'
 import mahasiswa from '../../mahasiswa.json'
+import PropertiBeranda from '../components/PropertiBeranda.jsx'
 
 export default function Beranda() {
   const { items, loading } = useKoleksi()
@@ -13,9 +14,7 @@ export default function Beranda() {
       {loading ? (
         <p>Memuat ringkasan...</p>
       ) : (
-        <p>
-          Ada {items.length} koleksi tanaman hias dalam {jumlahKategori} kategori.
-        </p>
+        <PropertiBeranda items = {items} jumlahKategori={jumlahKategori}/>
       )}
       <Link to="/koleksi">Lihat semua koleksi</Link>
     </section>
