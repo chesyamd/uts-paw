@@ -65,17 +65,39 @@ Ganti seluruh isi berkas ini dengan dokumentasi aplikasimu (butir rubrik A4). Ke
 ```markdown
 # Nama Aplikasi
 
-Nama: ...
-NIM: ...
-Kelas: ...
-Tema: ...
-Deployment: https://USERNAME.github.io/uts-paw/
+Nama: Chesya Margaretha Deto
+NIM: 124140098
+Kelas: RB
+Tema: Koleksi Tanaman Hias
+Deployment: https://chesyamd.github.io/uts-paw/
 
+1. Halaman Beranda 
 ![Tangkapan layar beranda](docs/beranda.png)
+
+2. Halaman Koleksi 
+![Tangkapan layar beranda](docs/koleksi.png)
+
+3. Halaman untuk Menghapus Item 
+![Tangkapan layar beranda](docs/hapus.png)
+
+4. Halaman Tambah 
+![Tangkapan layar beranda](docs/tambah.png)
+
+5. Halaman Statistik 
+![Tangkapan layar beranda](docs/statistik.png)
+
+6. Halaman Tentang 
+![Tangkapan layar beranda](docs/tentang.png)
+
+7. Halaman 404* 
+![Tangkapan layar beranda](docs/NotFound.png)
 
 ## Fitur
 
-- ...
+- Fitur pencarian item tanaman hias berdasarkan judul
+- Fitur pengelompokan item tanaman hias berdasarkan kategori
+- Fitur untuk menghapus item pada halaman Koleksi
+- Fitur untuk menghitung dan menampilkan jumlah item per kategori pada halaman Statistika
 
 ## Menjalankan secara lokal
 
@@ -85,5 +107,8 @@ npm run dev
 
 ## Konsep React yang dipakai
 
-- ...
-```
+- Hook useLocalStorage untuk menyimpan state ke LocalStorage setiap kali berubah
+- Context dan Provider untuk mengambil data awal dengan fetch, menyimpannya dan membagikannya ke semua halaman
+- Hook useKoleksi supaya setiap halaman cukup menulis useKoleksi() untuk mendapatkan data dan fungsi tambah/hapus
+- React Router untuk navigasi aplikasi
+
