@@ -16,7 +16,7 @@
 }
 
 .tabel-data thead th {
-  background: #f1f1f1;
+  background:  rgb(177, 217, 177);
 }
 
 .tabel-data tbody tr:nth-child(even) {
