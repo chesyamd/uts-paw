@@ -24,10 +24,10 @@
 ![Halaman NotFound](docs/NotFound.png)
 
 ## Fitur
--Fitur pencarian item tanaman hias berdasarkan judul
--Fitur pengelompokan item tanaman hias berdasarkan kategori
--Fitur untuk menghapus item pada halaman Koleksi
--Fitur untuk menghitung dan menampilkan jumlah item per kategori pada halaman Statistika
+- Fitur pencarian item tanaman hias berdasarkan judul
+- Fitur pengelompokan item tanaman hias berdasarkan kategori
+- Fitur untuk menghapus item pada halaman Koleksi
+- Fitur untuk menghitung dan menampilkan jumlah item per kategori pada halaman Statistika
 
 ## Menjalankan secara lokal
 
